@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+button{
+    color:white;
+    background-color: rgb(45, 78, 227);
+    padding: 10px 30px;
+    border-style:solid;
+    border-radius: 10px;
+   
+}
+.p1,.p11{
+    background-color: yellow;
+    
+}
+#p2{
+    border-style: dashed;
+    border-color:red;
+}
+#p3{
+    border-style:groove;
+    border-color:aquamarine;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    padding:30px 50px;
+
+}
+iframe{
+    border-radius:15px;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logoimage{
+    height:50px;
+    width:125px;
+}
+nav{
+    display:flex;
+    gap:30px;
+}
+#tutorials{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
